@@ -6,6 +6,8 @@ through a real mastering chain — tune the sound to your headphones, car, or sp
 
 <p align="center"><em>Kotlin · Jetpack Compose · no NDK · one APK</em></p>
 
+<p align="center"><strong>Latest: v1.0.1</strong></p>
+
 ## Features
 
 - **Radio 10** — Talpa stream via StreamTheWorld, 128 kbps MP3, with automatic
