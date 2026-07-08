@@ -100,6 +100,14 @@ class PlaybackService : Service() {
 
     override fun onBind(intent: Intent?): IBinder = binder
 
+    /** App swiped away from recents → stop completely (no orphan playback). */
+    override fun onTaskRemoved(rootIntent: Intent?) {
+        stopPlayback()
+        stopForeground(STOP_FOREGROUND_REMOVE)
+        stopSelf()
+        super.onTaskRemoved(rootIntent)
+    }
+
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         if (intent?.action == ACTION_STOP) {
             stopPlayback()
@@ -107,7 +115,7 @@ class PlaybackService : Service() {
             stopSelf()
             return START_NOT_STICKY
         }
-        return START_STICKY
+        return START_NOT_STICKY
     }
 
     // ---- Public controls (called from the Activity) --------------------
