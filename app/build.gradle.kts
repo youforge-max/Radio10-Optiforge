@@ -11,8 +11,8 @@ android {
         applicationId = "eu.cisodiagonal.radio10"
         minSdk = 29              // Android 10 (Huawei P30 Pro); DynamicsProcessing is API 28+
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
     }
 
     signingConfigs {
