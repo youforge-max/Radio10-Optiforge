@@ -1,5 +1,7 @@
 # Radio 10 Optiforge
 
+> Android MP3 player for Radio 10 (NL) with a built-in Optiforge 5-band multiband compressor/limiter DSP
+
 Android MP3 player for **Radio 10** (NL) with a built-in **Optiforge** 5-band
 multiband compressor + limiter running live on the stream. Listen to Radio 10
 through a real mastering chain — tune the sound to your headphones, car, or speaker.
