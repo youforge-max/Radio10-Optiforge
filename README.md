@@ -1,5 +1,7 @@
 # Radio 10 Optiforge
 
+> Android MP3 player for Radio 10 (NL) with a built-in Optiforge 5-band multiband compressor/limiter DSP
+
 
 <p align="center">
   <img src="docs/screenshot.png" alt="Radio 10 Optiforge — player and 5-band compressor" width="300">
